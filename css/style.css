@@ -15,9 +15,10 @@ nav img{
     color: #FABE4C;
 }
 .jacket-image{
-    height: 250px;
-    width: 200px;
-    background-color: #eaf0ef;
+    height: 300px;
+    width: 300px;
+    background-color: #F1F1F1;
+    margin: 15px auto;
 }
 b{
     font-size: 30px;
