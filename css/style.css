@@ -1,0 +1,64 @@
+*{
+    color: #363958;
+}
+header{
+    background-color: #FFFBF0;
+}
+nav img{
+    width: 300px;
+    height: 50px;
+}
+.nav-items{
+    margin-left: 350px;
+}
+.highlight-text{
+    color: #FABE4C;
+}
+.women-jacket-image{
+    height: 250px;
+    width: 200px;
+    background-color: #F1F1F1;
+}
+b{
+    font-size: 30px;
+    color: goldenrod;
+}
+h5{
+    color: #363958;
+}
+button{
+    background-color: #9FB73E;
+    border: 0;
+}
+.shoping-card{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.shoping-card img{
+    height: 300px;
+}
+.card-image img{
+    height: 80px;
+}
+.carousel-color {
+    background-color: rgba(236, 232, 190, 0.925);
+}
+.last-anchor{
+    text-decoration: none;
+    color: white;
+}
+.last-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-decoration: none;
+    background-color: #2E2E54;
+}
+footer{
+    text-align: center;
+}
+@media (max-width: 700px){
+    .last-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
